@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>les2_5</title>
+    <script src="app.js"></script>
+</head>
+<body>
+        <script>
+            // Реализовать функцию с тремя параметрами: function mathOperation(arg1, arg2, operation),
+            // где arg1, arg2 – значения аргументов, operation – строка с названием операции. В зависимости от
+            // переданного значения операции (использовать switch) выполнить одну из арифметических операций
+            // (использовать функции из задания 4) и вернуть полученное значение.
+            'use strict'
+            let choise = prompt('Что вы хотите +, -, / , *');
+            let a = Number(prompt('Введите число a: '));
+            let b = Number(prompt('Введите число b: '));
+            alert(mathOperation(a, b, choise))
+        </script>
+
+</body>
+</html>
