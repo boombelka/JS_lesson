@@ -1,0 +1,31 @@
+.name1 {
+    position: relative;
+}
+.animal {
+    float: left;
+    display: block;
+    width: 190px;
+    height: 200px;
+}
+.products_category {
+    position: absolute;
+    width: 570px;
+    height: 200px);
+}
+.product {
+    float: left;
+    width: 190px;
+    height: 200px;
+
+
+    }
+.name1 {
+    display: none;
+}
+.name2 {
+    display: none;
+}
+.name3 {
+    display: none;
+}
+
