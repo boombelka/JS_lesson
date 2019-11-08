@@ -23,7 +23,16 @@ let application = {
         }
         return `<table><tbody>${board}<tbody><table>`;
     },
-    generateRow
+    generateRow(startWithColor, rowNum) {
+        let currentColorClass = startWithColor;
+        let row = "";
+        for (let i = 0; i < this.config.cols.length; i++) {
+            let field = "";
+            if (currentColorClass === 'white') {
+                field =
+            }
+        }
+    }
 };
 
 application.run();
