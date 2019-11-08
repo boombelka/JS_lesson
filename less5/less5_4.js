@@ -30,8 +30,8 @@ function hideMoreText(card) {
 
 function showMoreText(card) {
     card.img.style.display = 'none'
-    const text = 'Кролики — это не только ценный мех, но и три — четыре килограмма диетического, легкоусвояемого мяса.'
-    card.product.insertAdjacentHTML('afterend', '<div class="desc">${text}</div>');
+    const text = 'Кролики — это не только ценный мех, но и три — четыре килограмма диетического, легкоусвояемого мяса.';
+    card.product.insertAdjacentHTML('afterend',  `<div class="desc">${text}</div>`);
     card.button.innerText = 'Отмена';
 }
 
