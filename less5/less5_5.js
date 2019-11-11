@@ -29,9 +29,15 @@ let application = {
         for (let i = 0; i < this.config.cols.length; i++) {
             let field = "";
             if (currentColorClass === 'white') {
-                field =
+                field =this.generateField('white',rowNum, this.config.cols[i] );
+                currentColorClass = 'blackField';
             }
-        }
+            row += field;
+        };
+
+        generateField(color, rowNum, colChar) {
+            return `<td data-rownum="${rowNum}" data-colchar="${colChar}" class = "${color}"></td>`;
+        };
     }
 };
 
