@@ -30,3 +30,26 @@
     display: block;
     object-fit: cover;
 }
+.slider-leftArrow {
+    position: absolute;
+    top: 47%;
+    z-index: 3;
+    color: green;
+    cursor: pointer;
+    font-size: 50px;
+}
+.slider-rightArrow {
+    position: absolute;
+    top: 47%;
+    z-index: 3;
+    color: green;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.slider-leftArrow {
+    left: 5%;
+}
+.slider-rightArrow {
+    right: 5%;
+}
