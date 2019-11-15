@@ -1,3 +1,4 @@
+// Создание корзины
 var d = document,
     itemBox = d.querySelectorAll('.item_box'), // блок товара такой блок у каждого товара
     cartCont = d.getElementById('cart_content'); // блок вывода данных корзины
